@@ -49,8 +49,9 @@ class _BmiCalculationState extends State<BmiCalculation> {
                   height:160,
                   color:Color.fromRGBO(51, 51, 53, 100),
                   child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Icon(Icons.female,color: Colors.white,size: 80,),
+                      Icon(Icons.man,color: Colors.white,size: 80,),
                       Text("Male",style: TextStyle(
                           color: Colors.white,fontSize: 20)
                       ),
@@ -64,8 +65,9 @@ class _BmiCalculationState extends State<BmiCalculation> {
                     height:160,
                     color: Color.fromRGBO(51, 51, 53, 100),
                     child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(Icons.male,color: Colors.white,size: 80,),
+                        Icon(Icons.woman,color: Colors.white,size: 80,),
                         Text("Female",style: TextStyle(
                           color: Colors.white,fontSize: 20)
                         ),

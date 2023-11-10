@@ -2,5 +2,7 @@
 import 'package:flutter/material.dart';
 
 void main(){
-  runApp(MaterialApp(home:BmiCalculation() ,));
+  runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
+    home:BmiCalculation() ,));
 }
